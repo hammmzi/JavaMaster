@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SelectProduct</title>
+</head>
+<body>
+
+	商品を選択してください。
+	<hr>
+
+	<form action="/jmaster/SelectProductServlet" method="post">
+		パソコン
+		<input type="hidden" name="product_no" value="100">
+		<input type="submit" value="選択">
+	</form>
+	<form action="/jmaster/SelectProductServlet" method="post">
+		プリンタ
+		<input type="hidden" name="product_no" value="101">
+		<input type="submit" value="選択">
+	</form>
+	<form action="/jmaster/SelectProductServlet" method="post">
+		デジタルカメラ
+		<input type="hidden" name="product_no" value="102">
+		<input type="submit" value="選択">
+	</form>
+
+</body>
+</html>
